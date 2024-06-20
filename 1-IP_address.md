@@ -94,6 +94,12 @@ These ranges are defined by Classless Inter-Domain Routing (CIDR) blocks.
 
 CIDR notation simplifies the representation of IP addresses and their associated routing prefix. The notation is expressed as `IP address/prefix length`. For example, `192.168.1.1/24` indicates that the first 24 bits of the IP address are the network portion.
 
+To calculate how many ip addresss  we can use from  1ip with submask is 
+`192.168.1.1/24`   
+
+`32 bits - 24 bits = 8 bits ---- >  $2^{8}$ = 256 ip addresses `
+
+
 <img src="https://images.ctfassets.net/aoyx73g9h2pg/5dAlax6oR8HC5Lj1i7sw3t/0d295db4ca562e04ea05ea1b29ab32b1/What-is-Proper-CIDR-Notation-Diagram.jpg" alt="Alt Text 1" style="width:45%;margin-right:5%;"> <img src="https://ipv4.global/wp-content/uploads/ipv4/2022/06/CIDR_Chart-1.png" alt="Alt Text 2" style="width:45%;">
 
 ![](https://miro.medium.com/v2/resize:fit:1400/1*CsYdOdujY5254ZH_I_1okQ.png)
